@@ -1,0 +1,50 @@
+
+Nesna3 container b image ubuntu esmha ubuntu stage w theli l terminal
+docker container run --name ubuntustage -ti ubuntu bash 
+
+
+
+apt-get update 
+
+apt-get install -y figlet 
+
+figlet 'chaine' 
+
+
+bch nrodha image lezm naamel 
+
+docker ps -a w nekhou l id mte3ha 470fda88b531 
+
+
+docker container diff 470fda88b531  bch nchouf biha chnowa zedt 
+
+
+bch nrodha image naamel docker container commit <id container > 470fda88b531 
+
+
+docker container ls bch nthabet keni walet image wala le 
+
+
+bch nbadelelha esmha docker image tag <image id> b39ce7c44697 UbuntuStageFiglet
+
+
+docker image ls bch nchoufha tbadelet wala lé 
+
+
+
+Bch nrunni container okhra aal image mte3i naamel 
+
+docker container run ubuntustagefiglet figlet aaa
+
+
+
+Deployment 
+
+
+mtaa ubuntustagefiglet 
+
+
+
+kubectl create deployment stage --image=ubuntustagefiglet
+
+kubectl get deployment bch nchouf ken cb wala lé
